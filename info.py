@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '29198115'))
+API_HASH = environ.get('API_HASH', 'c95739ca773e2e35efe11b406b59af3b')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7667980060:AAExTLVjOTb6FTUfzHI-LQ5TzrApmo5CKE8')
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = -1001792675255
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "PIRO")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://acoolvoice03_db_user:gDvzSlQvi0REvSWP@cluster0.t91uvkm.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "filerboss")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
 # Others
